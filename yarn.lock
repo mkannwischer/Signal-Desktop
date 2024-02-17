@@ -3955,8 +3955,12 @@
     bindings "^1.5.0"
     tar "^6.1.0"
 
-"@signalapp/libsignal-client@../libsignal/node/dist/":
-  version "0.0.0"
+"@signalapp/libsignal-client@../libsignal/node/":
+  version "0.40.0"
+  dependencies:
+    node-gyp-build "^4.2.3"
+    type-fest "^3.5.0"
+    uuid "^8.3.0"
 
 "@signalapp/libsignal-client@^0.39.2":
   version "0.39.3"
